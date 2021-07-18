@@ -181,6 +181,19 @@
     z-index: -1;
     background-color: #68E1FD;
 }
+@media (max-width:991px) {
+    .services .text-center h1::before{
+   
+        content: " ";
+        position: absolute;
+        top: 30px;
+        margin-left: -20px;
+        width: 50%;
+        height: 50px;
+        z-index: -1;
+        background-color: #68E1FD;
+    }
+}
 
 .services .special{
     margin-top: 40px;
@@ -203,6 +216,7 @@
     background-color: #f05865;
 
 }
+
 
 .services .icon{
     display: flex;
